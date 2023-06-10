@@ -7,7 +7,7 @@ const page = () => {
       <h1 className="head_text text-center">Share & Find</h1>
       <br className="max-md:hidden" />
       <span className="orange_gradient text-center">Your favorite books</span>
-      <p className="desc text-center">
+      <p className="desc text-center italic">
         BookCase is a digital platform designed to connect avid readers,
         providing them with a convenient space to explore, exchange, and share
         their beloved books
