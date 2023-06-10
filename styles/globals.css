@@ -82,11 +82,11 @@
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
+  @apply mt-10 text-4xl font-extrabold leading-[1.15] text-black md:text-5xl tracking-wider;
 }
 
 .orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent text-2xl uppercase tracking-wide mb-6;
 }
 
 .green_gradient {
@@ -98,7 +98,7 @@
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl max-w-2xl;
+  @apply mt-5 text-2xl text-gray-600 max-w-2xl tracking-wide;
 }
 
 .search_input {
